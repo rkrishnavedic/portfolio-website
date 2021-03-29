@@ -8,13 +8,13 @@ body{
 }
 
 header{
+    opacity: 0.95;
     padding: 5px;
     padding-bottom: 7px;
     outline: 0.3px dashed rgb(9, 4, 53);
     background-color: rgb(229, 233, 248);
     width: 100%;
     position: fixed;
-    backdrop-filter: drop;
 }
 
 header >nav{
@@ -89,6 +89,10 @@ footer >nav >a >img{
     max-width: 25px;
     padding-left: 7px;
     padding-right: 7px;
+    filter: invert(50%);
+}
+footer >nav >a >img:hover{
+    filter: none;
 }
 
 .seelive{
@@ -131,3 +135,4 @@ li{
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Spartan');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira');
