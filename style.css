@@ -3,12 +3,13 @@ html{
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     margin: auto;
 }
 
 header{
     padding: 5px;
+    padding-bottom: 7px;
     outline: 0.3px dashed rgb(9, 4, 53);
     background-color: rgb(229, 233, 248);
     width: 100%;
@@ -128,4 +129,5 @@ li{
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Spartan');
