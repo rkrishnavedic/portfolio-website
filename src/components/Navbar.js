@@ -1,0 +1,27 @@
+import React from 'react';
+import './Navbar.css';
+
+export default function Navbar(){
+
+
+    const navItem = (name, path)=>{
+        return(
+            <a href="/" className="nav-item">
+               {name}
+            </a>
+        )
+    }
+
+    return(
+        <div className="navbar-container">
+            <div className="navbar-left">Rahul Krishna</div>
+            <div className="navbar-right">
+                {navItem('Home', '#')}
+                {navItem('Projects', '#')}
+                {navItem('Skills', '#')}
+                {navItem('Education', '#')}
+
+            </div>
+        </div>
+    )
+}
