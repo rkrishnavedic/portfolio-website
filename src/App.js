@@ -1,6 +1,8 @@
 import './App.css';
+import Experience from './components/Experience';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
 
       <Profile/>
       
+      <Experience/>
+
+      <Projects/>
     </div>
   );
 }

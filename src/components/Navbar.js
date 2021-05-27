@@ -16,7 +16,7 @@ export default function Navbar(){
         <div className="navbar-container">
             <div className="navbar-left">Rahul Krishna</div>
             <div className="navbar-right">
-                {navItem('Home', '#')}
+                {navItem('Experience', '#')}
                 {navItem('Projects', '#')}
                 {navItem('Skills', '#')}
                 {navItem('Education', '#')}
