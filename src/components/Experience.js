@@ -1,5 +1,6 @@
 import React from 'react';
 import './Experience.css';
+import svg from './experience.svg';
 
 export default function Experience(){
 
@@ -19,7 +20,10 @@ export default function Experience(){
                     
                 </div>
 
+
+                <img src={svg} alt='exp'/>
             </div>
+
 
         </div>
     )

@@ -32,3 +32,9 @@ background-color: rgba(237, 240, 245, 0.527);
     color: #0f62fe;
     border-bottom: 3px solid #0f62fe;
 }
+
+@media only screen and (max-width: 700px) {
+    .navbar-right{
+        display: none;
+    }
+}
