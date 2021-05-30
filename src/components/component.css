@@ -3,7 +3,8 @@ border-top: 3px solid rgba(255, 255, 255, 0);
 display: flex;
 justify-content: space-evenly;
 /* background-color: #0f62fe; */
-background-color: rgba(237, 240, 245, 0.527);
+background-color: rgb(255, 255, 255);
+font-weight: normal;
 }
 
 .navbar-left{
@@ -21,7 +22,7 @@ background-color: rgba(237, 240, 245, 0.527);
 }
 
 .nav-item{
-    color: rgb(58, 58, 58);
+    color: #393939;
     text-decoration: none;
     border-bottom: 3px solid rgba(255, 255, 255, 0);
     transition: .2s ease-in-out;
@@ -37,4 +38,42 @@ background-color: rgba(237, 240, 245, 0.527);
     .navbar-right{
         display: none;
     }
+}
+
+/*profile specific*/
+
+.profile{
+    color: #f4f4f4;
+    background-color: #393939;
+    display: flex;
+    height: 100%;
+}
+
+.profile-left, .profile-right{
+    width: 50vw;
+}
+
+.profile-left{
+    padding: 32px;
+}
+
+.profile-left h3{
+font-size: 50px;
+font-weight: 1;
+}
+
+.profile-right img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+Containers
+*/
+
+.container{
+    height: 500px;
+    background-color: #f1f4f8;
+    font-weight: 600;
 }

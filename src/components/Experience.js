@@ -1,11 +1,9 @@
 import React from 'react';
-import './Experience.css';
-import svg from './experience.svg';
 
 export default function Experience(){
 
     return(
-        <div className="experience-container">
+        <div className="container">
 
             <div className="heading">
                 EXPERIENCE
@@ -21,7 +19,6 @@ export default function Experience(){
                 </div>
 
 
-                <img src={svg} alt='exp'/>
             </div>
 
 

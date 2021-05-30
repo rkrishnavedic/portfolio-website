@@ -1,17 +1,20 @@
 import React from 'react';
-import './Profile.css';
 import Typewriter from 'typewriter-effect';
-import EarthPic from './earth.png';
+import me from './me.png';
 
 export default function Profile(){
 
     return(
 
-        <div className="profile-container">
+        <div className="container">
             <div className="profile">
-                <h3>Namaste!</h3>
-                <p>
-                    <Typewriter
+                <div className="profile-left">
+                    
+                    <h3>Think More</h3>
+                </div>
+                <div className="profile-right">
+                    <img src={me} alt='me'/>
+                    {/* <Typewriter
                         options={{
                             loop:true,
                         }}
@@ -26,12 +29,8 @@ export default function Profile(){
                                 .pauseFor(2500)
                                 .start()
                         }}
-                    />
-                </p>
-            </div>
-
-            <div className="profile-info">
-                <img src={EarthPic} alt='earth-pic'/>
+                    /> */}
+                </div>
             </div>
 
         </div>
