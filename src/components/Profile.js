@@ -1,5 +1,4 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
 import me from './me.png';
 import arrow from './arrow.svg';
 import './component.css';
@@ -31,22 +30,7 @@ export default function Profile(){
                 </div>
                 <div className="profile-right">
                     <img src={me} alt='me'/>
-                    {/* <Typewriter
-                        options={{
-                            loop:true,
-                        }}
-                        onInit={(typewriter)=>{
-                            typewriter
-                                .changeDeleteSpeed(1)
-                                .changeDelay(50)
-                                .typeString('I am a Student')
-                                .pauseFor(1500)
-                                .deleteAll()
-                                .typeString('and a Developer')
-                                .pauseFor(2500)
-                                .start()
-                        }}
-                    /> */}
+                    
                 </div>
             </div>
 
