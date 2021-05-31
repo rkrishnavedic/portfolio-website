@@ -1,6 +1,6 @@
 import React from 'react';
-import me from './me.png';
-import arrow from './arrow.svg';
+import me from './assets/me.png';
+import arrow from './assets/arrow.svg';
 import './component.css';
 
 export default function Profile(){
@@ -14,7 +14,7 @@ export default function Profile(){
                     <div>
                         <h3>
                             "If you Think 
-                            <br/>
+                            
                             yourselves strong, 
                             <br/>strong you will be."
                         </h3>
