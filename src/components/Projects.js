@@ -41,11 +41,14 @@ export default function Projects(){
                                 <img src="https://sm.pcmag.com/pcmag_in/guide/t/the-best-p/the-best-project-management-software-for-2021_ehu1.jpg" alt='pro'/>
                                 
                                 <div className="card-detail">
-                                    <h2>{_project.title}</h2>
+                                    <h4>{_project.title}</h4>
                                     <p>{_project.desc}</p>
-                                    <div className='button-set'>
-                                        <button>See live</button>
-                                        <button>code</button>
+                                    <div className='bottom'>
+                                        
+                                        <button>[Live]</button>
+                                        
+                                        <button>[code]</button>
+                                        
                                     </div>
                                 </div>
                                 

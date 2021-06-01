@@ -21,7 +21,11 @@ export default function Experience(){
                             Explored both technical and business aspects of the project and its implications to wide range of Audiences.
                         </p>
                         <div className="bottom">
-                            <button>Learn more</button>
+                            
+                            
+                                <button>Learn more</button>
+                            
+                            
                         </div>
                     </div>
                     

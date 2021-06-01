@@ -185,7 +185,7 @@ h4{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card-detail h4{
@@ -200,22 +200,20 @@ h4{
 
 .card-detail button{
     border: none;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     font-family: IBM Plex Sans;
     font-size: 15px;
-    color: #0362ff;
-    background-color: white;
+    background-color: #0362ff;
+    margin-left: 10px;
+    color: #f4f4f4;
     padding: 10px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 .card-detail button:hover{
-    background-color: #0362ff;
-    color: #f4f4f4;
+    background-color: #004ddb;
 }
 
 .card-detail .bottom{
-    text-align: right;
+   text-align: right;
 }
