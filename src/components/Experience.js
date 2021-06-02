@@ -15,7 +15,7 @@ export default function Experience(){
                     <img src={eb} alt='eb'/>
 
                     <div className="card-detail">
-                        <h4>Extreme Blue Intern 2021</h4>
+                        <h4>IBM Extreme Blue Intern 2021</h4>
                         <p>
                             Learned a lot through this Technical Leadership Program.
                             Explored both technical and business aspects of the project and its implications to wide range of Audiences.

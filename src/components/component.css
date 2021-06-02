@@ -157,6 +157,7 @@ h4{
     background-color: #f1f4f8;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .odd-card{
@@ -167,6 +168,7 @@ h4{
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .card img{
@@ -216,4 +218,14 @@ h4{
 
 .card-detail .bottom{
    text-align: right;
+}
+
+.progress-back{
+    height: 32px;
+    background-color: lightgray;
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: #0362ff;
 }
