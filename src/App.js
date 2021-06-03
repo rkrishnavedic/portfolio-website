@@ -1,4 +1,5 @@
 import './App.css';
+import Education from './components/Education';
 import Experience from './components/Experience';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
@@ -17,6 +18,8 @@ function App() {
       <Projects/>
 
       <Skills/>
+
+      <Education/>
     </div>
   );
 }
