@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './component.css';
 import webIllustration from './assets/webIll.png';
 import codeIllustration from './assets/codeIll.png';
@@ -25,9 +25,19 @@ const skilldata = [
     },
 ]
 
-export default function Skills(){
+export default function Skills({scrollId}){
+    const compId = 3;
+
+    const compRef = useRef(null);
+
+    useEffect(()=>{
+        if(scrollId === compId){
+            compRef.current.scrollIntoView();
+        }
+    },[scrollId])
+
     return(
-        <div className="container">
+        <div ref={compRef} className="container">
             <div className="card-space">
                 <div className="void-card">
                     <h4>Skills</h4>

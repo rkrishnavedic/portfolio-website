@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -7,19 +8,22 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 
 function App() {
+
+  const [scrollId, setScrollId] = useState(null);
+
   return (
     <div className="app">
-      <Navbar/>
+      <Navbar setScrollId={setScrollId}/>
 
       <Profile/>
       
-      <Experience/>
+      <Experience scrollId={scrollId}/>
 
-      <Projects/>
+      <Projects scrollId={scrollId} />
 
-      <Skills/>
+      <Skills scrollId={scrollId}/>
 
-      <Education/>
+      <Education scrollId={scrollId}/>
     </div>
   );
 }

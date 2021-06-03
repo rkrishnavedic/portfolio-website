@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './component.css';
 import eb from './assets/ibm-eb.png';
 
-export default function Experience(){
+export default function Experience({scrollId}){
+
+    const compId = 1;
+
+    const compRef = useRef(null);
+
+    useEffect(()=>{
+        if(scrollId === compId){
+            compRef.current.scrollIntoView();
+        }
+    },[scrollId])
 
     return(
-        <div className="container">
+        <div ref={compRef} className="container">
             <div className="card-space">
                 <div className="void-card">
                     <h4>Experience</h4>

@@ -26,6 +26,7 @@ background-color: rgb(255, 255, 255);
     text-decoration: none;
     border-bottom: 3px solid rgba(255, 255, 255, 0);
     transition: .2s ease-in-out;
+    cursor: pointer;
 }
 
 .nav-item:hover{
@@ -97,8 +98,8 @@ color: #efefef;
     object-fit: contain;
     height: 400px;
     border-radius: 300rem;
-    border-left: 3px solid #f4f4f4;
-    border-bottom: 3px solid #f4f4f4;
+    border-top: 1px solid #f4f4f48f;
+    border-bottom: 1px solid #f4f4f493;
 }
 
 /* @media only screen and (max-width: 900px) {

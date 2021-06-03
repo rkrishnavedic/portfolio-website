@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './component.css';
 import dav from './assets/dav.jpeg';
 import iitg from './assets/iitg.png';
@@ -22,10 +22,20 @@ const eduData = [
     }
 ]
 
-export default function Education(){
+export default function Education({scrollId}){
+
+    const compId = 4;
+
+    const compRef = useRef(null);
+
+    useEffect(()=>{
+        if(scrollId === compId){
+            compRef.current.scrollIntoView();
+        }
+    },[scrollId])
 
     return(
-        <div className="odd-container">
+        <div ref={compRef} className="odd-container">
             <div className="card-space">
                 <div className="void-card">
                     <h4>Education</h4>
