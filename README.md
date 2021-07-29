@@ -1,5 +1,5 @@
 
-![build](https://github.com/rkrishnavedic/portfolio-website/actions/workflows/node.js.yml/badge.svg?branch=master)
+![build](https://github.com/rkrishnavedic/portfolio-website/actions/workflows/node.js.yml/badge.svg)
 
 # Portfolio Website of Rahul Krishna
 
