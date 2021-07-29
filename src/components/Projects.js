@@ -46,7 +46,7 @@ export default function Projects({scrollId}){
                                 <img src="https://sm.pcmag.com/pcmag_in/guide/t/the-best-p/the-best-project-management-software-for-2021_ehu1.jpg" alt='pro'/>
                                 
                                 <div className="card-detail">
-                                    <h4>{_project.title}</h4>
+                                    <h4>{_project.title} change this</h4>
                                     <p>{_project.desc}</p>
                                     <div className='bottom'>
                                         
