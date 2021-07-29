@@ -33,7 +33,7 @@ export default function Experience({scrollId}){
                         <div className="bottom">
                             
                             
-                                <button>Learn more</button>
+                        <a href='https://www.ibm.com/employment/extremeblue/' style={{textDecoration:'none'}}><button>Learn More</button></a>
                             
                             
                         </div>

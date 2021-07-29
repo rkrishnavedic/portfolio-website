@@ -1,20 +1,22 @@
 import React, { useEffect, useRef } from 'react';
 import './component.css';
+import photosfire_image from './assets/photosfire_image.png';
+import learn4fun_image from './assets/learn4fun_image.png';
 
 const data = [
     {
-        title: 'Project 1',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        code: 'https://www.google.com',
-        live: '',
-        background: ''
+        title: 'photosFire',
+        desc: 'A photos gallery web app using reactJS for frontend and firebase as backend. Also framer-motion for smooth transitions.',
+        code: 'https://github.com/rkrishnavedic/photo_firebase',
+        live: 'https://demo-photosfire.netlify.app',
+        background: photosfire_image
     },
     {
-        title: 'Project 1',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        code: 'https://www.google.com',
-        live: '',
-        background: ''
+        title: 'Learn4fun',
+        desc: 'MERN Project using Codeforces API for CF Tools and another API in expressJS for blogs data storage in mongoDB as database.',
+        code: 'https://bit.ly/3zJtcQZ',
+        live: 'https://learn4fun.netlify.app',
+        background: learn4fun_image
     },
     
     
@@ -43,16 +45,16 @@ export default function Projects({scrollId}){
                     {data.map((_project)=>{
                         return(
                             <div className="odd-card">
-                                <img src="https://sm.pcmag.com/pcmag_in/guide/t/the-best-p/the-best-project-management-software-for-2021_ehu1.jpg" alt='pro'/>
+                                <img src={_project.background? _project.background:"https://sm.pcmag.com/pcmag_in/guide/t/the-best-p/the-best-project-management-software-for-2021_ehu1.jpg"} alt='pro'/>
                                 
                                 <div className="card-detail">
-                                    <h4>{_project.title} change this</h4>
+                                    <h4>{_project.title}</h4>
                                     <p>{_project.desc}</p>
                                     <div className='bottom'>
                                         
-                                        <button>[Live]</button>
+                                        <a href={_project.live} style={{textDecoration:'none'}}><button>[Live]</button></a>
                                         
-                                        <button>[code]</button>
+                                        <a href={_project.code} style={{textDecoration:'none'}}><button>[code]</button></a>
                                         
                                     </div>
                                 </div>

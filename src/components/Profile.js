@@ -25,7 +25,7 @@ export default function Profile(){
                         <h5>
                             Start a brief conversation
                         </h5>
-                        <button>Let's Connect! <img src={arrow} alt='arr'/></button>
+                        <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/rahulkrishna23/"><button>Let's Connect! &nbsp; &nbsp; &nbsp; <img src={arrow} alt='arr'/></button></a>
                     </div>
                 </div>
                 <div className="profile-right">
